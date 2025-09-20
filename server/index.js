@@ -12,7 +12,7 @@ const app = express();
 const server = createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: 'https://socket-with-react-1.onrender.com/',
+        origin: 'https://socket-with-react-1.onrender.com',
         methods:["GET","POST"],
     }
 });
